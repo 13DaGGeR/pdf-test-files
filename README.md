@@ -2,12 +2,14 @@
 
 This is a set of PDF files for testing purposes.
 
+[Demo site](https://13dagger.github.io/pdf-test-files/)
+
 | File | Size |
 |--|--|
-|[Multiple pages](docs/multiple-pages.pdf) | 9.2 KB |
-|[Small](docs/small.pdf) | 3.8 KB |
-|[With images and landscape](docs/with-images-and-landscape.pdf) | 55.8 KB |
-|[With images](docs/with-images.pdf) | 54.6 KB |
+|[Multiple pages](./docs/multiple-pages.pdf) | 9.2 KB |
+|[Small](./docs/small.pdf) | 3.8 KB |
+|[With images and landscape](./docs/with-images-and-landscape.pdf) | 55.8 KB |
+|[With images](./docs/with-images.pdf) | 54.6 KB |
 
 ## Contributing
 

@@ -22,10 +22,12 @@ function generateReadme(array $pdfs)
 
 This is a set of PDF files for testing purposes.
 
+[Demo site](https://13dagger.github.io/pdf-test-files/)
+
 | File | Size |
 |--|--|
 <?php foreach ($pdfs as $pdf) { ?>
-|[<?= $pdf['title'] ?>](./public/<?=$pdf['url'] ?>) | <?= $pdf['size'] ?> |
+|[<?= $pdf['title'] ?>](./docs/<?=$pdf['url'] ?>) | <?= $pdf['size'] ?> |
 <?php } ?>
 
 ## Contributing
