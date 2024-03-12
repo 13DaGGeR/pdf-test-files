@@ -4,10 +4,10 @@ This is a set of PDF files for testing purposes.
 
 | File | Size |
 |--|--|
-|[Multiple pages](./public/multiple-pages.pdf) | 9.2 KB |
-|[Small](./public/small.pdf) | 3.8 KB |
-|[With images and landscape](./public/with-images-and-landscape.pdf) | 55.8 KB |
-|[With images](./public/with-images.pdf) | 54.6 KB |
+|[Multiple pages](docs/multiple-pages.pdf) | 9.2 KB |
+|[Small](docs/small.pdf) | 3.8 KB |
+|[With images and landscape](docs/with-images-and-landscape.pdf) | 55.8 KB |
+|[With images](docs/with-images.pdf) | 54.6 KB |
 
 ## Contributing
 

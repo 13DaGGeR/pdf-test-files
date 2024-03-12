@@ -2,14 +2,14 @@
 # This file is used to generate index.html in /public directory
 
 $pdfs = [];
-$files = scandir(__DIR__ . '/../public');
+$files = scandir(__DIR__ . '/../docs');
 foreach ($files as $file) {
     if (substr($file, -4) !== '.pdf') {
         continue;
     }
     $pdfs[] = [
         'url' => $file,
-        'size' => round(filesize(__DIR__ . '/../public/' . $file) / 1024, 1) . ' KB',
+        'size' => round(filesize(__DIR__ . '/../docs/' . $file) / 1024, 1) . ' KB',
         'title' => ucfirst(str_replace(['.pdf', '-'], ['', ' '], $file)),
     ];
 }
@@ -80,7 +80,7 @@ function generateIndex(array $pdfs)
     </body>
     </html>
     <?php
-    file_put_contents(__DIR__ . '/../public/index.html', ob_get_clean());
+    file_put_contents(__DIR__ . '/../docs/index.html', ob_get_clean());
 }
 
 generateIndex($pdfs);
